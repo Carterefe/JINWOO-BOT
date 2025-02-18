@@ -15,24 +15,24 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //=================================================//
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'Jinwoo-Bot:~tgJxVCDC#LBvU2zUoZ1NbX_Z6kKzoYPqkQ5V2_QjFLIvMps-AoiU' 
 //Enter your Xploader session id here; must start with Jinwoo-Bot:~
 
 //=================================================//
-global.botname = process.env.BOT_NAME || 'ᎫᏆΝᏔϴϴ ᏴϴͲ' 
+global.botname = process.env.BOT_NAME || 'GOJO SATORU' 
 //Your desired bot name
 
 //=================================================//
-global.ownernumber = process.env.OWNER_NUMBER || '263714757857' 
+global.ownernumber = process.env.OWNER_NUMBER || 'SINNED' 
 //Type your main number here
 
 //=================================================//
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263780934873', '263780166288'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['2349165278728', '263780166288'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Malvin' 
+global.ownername = process.env.OWNER_NAME || 'SINNED' 
 //Type your name here
 
 //=================================================//
@@ -42,7 +42,7 @@ global.plink = process.env.PLINK || "https://www.instagram.com/techlord01?igsh=O
 global.wm = process.env.GL_WM || "©ᎫᏆΝᏔϴϴ ᗷOT"
 
 //=================================================//
-global.packname = process.env.STICKER_PACK_NAME || "ᎫᏆΝ" 
+global.packname = process.env.STICKER_PACK_NAME || "SINNED" 
 //The sticker pack name
 
 //=================================================//
@@ -54,7 +54,7 @@ global.prefixz = process.env.PREFIX || '.'
 //Set your desired prefix
 
 //=================================================//
-global.mode = process.env.MODE || 'public';
+global.mode = process.env.MODE || 'private';
 // Set to 'private' to enable private mode, otherwise default is 'public'
 
 //=================================================//
